@@ -1,0 +1,27 @@
+{
+  "name": "table-vanilla",
+  "description": "",
+  "version": "0.0.0",
+  "main": "lib/table-vanilla.js",
+  "main-es6": "src/table-vanilla.es6",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "compile": "gulp build:node",
+    "prepublish": "npm run compile"
+  },
+  "author": {
+    "name": "Ahmed Nuaman",
+    "email": "ahmed@ahmednuaman.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gouie/table-vanilla.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-fibre-tasks": "^1.0.5"
+  },
+  "dependencies": {}
+}
